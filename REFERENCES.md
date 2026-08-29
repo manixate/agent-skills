@@ -9,12 +9,13 @@ the five entries below.
 1. Daniele Procida, **Diátaxis** (diataxis.fr). Distinguishes tutorials, how-to guides,
    reference, and explanation. Provides the structure used by `tech-docs`.
 2. Barbara Minto, **The Pyramid Principle**. Presents the answer before its supporting
-   argument.
+   argument. Backs `leadership-brief`.
 3. **Google Technical Writing courses** (developers.google.com/tech-writing). Free,
    concise courses that establish a shared baseline.
 4. Joseph Williams, **Style: Lessons in Clarity and Grace**. Explains sentence-level
    clarity, including characters as subjects and actions as verbs.
-5. Michael Nygard's **ADR essay**. Provides foundations for decision records.
+5. Michael Nygard's **ADR essay** and the **Google SRE postmortem chapter**. Provide
+   foundations for decision records and incident reviews.
 
 ## Writing craft (applies everywhere)
 
@@ -57,6 +58,31 @@ White).
 - Will Larson, on writing technical specs and design docs (lethain.com). Backs
   `tech-design`.
 
+## Strategy, persuasion, and leadership docs
+
+- Barbara Minto, *The Pyramid Principle*. Answer first, then support. Backs
+  `leadership-brief`.
+- Richard Rumelt, *Good Strategy / Bad Strategy*. Diagnosis, guiding policy, coherent
+  action, and common substitutes for strategy. Backs `engineering-strategy`.
+- Will Larson, *An Elegant Puzzle* and lethain.com. Engineering strategy, organizational
+  constraints, and sequencing. Backs `engineering-strategy` and `roadmap`.
+- Marty Cagan, *Inspired* / *Empowered*. Outcomes over output. Backs `roadmap`.
+- Amazon's narrative and PR/FAQ "working backwards" culture. Prose over slides. Backs
+  `leadership-brief` and `engineering-strategy`.
+- Jean-luc Doumont, *Trees, Maps, and Theorems*. Covers the structure of technical
+  communication and visuals. Backs `leadership-brief`.
+
+## Incident and operational writing
+
+- Google SRE Book and Workbook (sre.google/books), the postmortem chapter,
+  "Postmortem Culture," and operational-readiness guidance. Backs `postmortem` and
+  `runbook`.
+- PagerDuty incident-response and postmortem guidance. Backs `postmortem` and `runbook`.
+- John Allspaw and the Etsy "Debriefing Facilitation Guide." The philosophy behind
+  blameless review.
+- Richard Cook, "How Complex Systems Fail." Why single-root-cause thinking misleads.
+- Dan Luu (danluu.com). Examples of plain, data-driven analysis and postmortem writing.
+
 ## Review and feedback
 
 - Google's engineering practices, "How to do a code review" (google.github.io/eng-practices).
@@ -75,7 +101,8 @@ White).
 
 - Julia Evans (jvns.ca). Makes difficult technical subjects approachable. Backs
   `tech-blog`.
-- Dan Luu (danluu.com). Rigorous, plain, data-driven analysis. Backs `tech-blog`.
+- Dan Luu (danluu.com). Rigorous, plain, data-driven analysis. Backs `tech-blog` and
+  `postmortem`.
 - Martin Fowler (martinfowler.com). Explaining architecture clearly and durably. Backs
   `tech-blog`.
 - Will Larson (lethain.com). Engineering strategy and org writing.
